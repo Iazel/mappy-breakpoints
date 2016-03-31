@@ -80,7 +80,7 @@ $mappy-queries: () !default;
   }
   $_return: (
     type: $type,
-    media-string: inspect($media-string),
+    media-string: join($media-string, ' '),
     query-fallback: $query-fallback
   );
 
